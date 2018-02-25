@@ -4,8 +4,8 @@ defmodule PhoenixHaml.Mixfile do
   def project do
     [
       app: :phoenix_haml,
-      version: "0.2.3",
-      elixir: "~> 1.0.1 or ~> 1.1",
+      version: "0.2.4",
+      elixir: "~> 1.6",
       deps: deps(),
       package: [
         contributors: ["Chris McCord", "Stephen Pallen"],
@@ -25,9 +25,9 @@ defmodule PhoenixHaml.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.1"},
-      {:phoenix_html, "~> 2.3"},
-      {:calliope, "~> 0.4.1"}
+      {:phoenix, "~> 1.3"},
+      {:phoenix_html, "~> 2.10"},
+      {:calliope, "~> 0.4.2"}
     ]
   end
 end
